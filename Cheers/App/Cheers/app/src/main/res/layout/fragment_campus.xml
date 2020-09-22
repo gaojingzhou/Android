@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.ChildFragment.CampusFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/darkseagreen"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:id="@+id/school_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/sysulogo" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="259dp"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp">
+
+
+            <TextView
+                android:id="@+id/school_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="0dp"
+                android:text="中山大学"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/school_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/school_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/textviewback"
+                android:text="双一流"
+                android:textColor="@color/white"
+                android:alpha="0.5"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/school_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/school_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="113dp"
+                android:layout_marginLeft="113dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/textviewback"
+                android:text="985"
+                android:textColor="@color/white"
+                android:alpha="0.5"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/school_film_text"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="left"
+                android:paddingTop="5dp"
+                android:text="校园概览"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <VideoView
+                android:id="@+id/school_video"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@+id/school_film_text"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:id="@+id/video_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="135dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_play" />
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/school_list_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="校园新闻"
+            android:paddingTop="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_list"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

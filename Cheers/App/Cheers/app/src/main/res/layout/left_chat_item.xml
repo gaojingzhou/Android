@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/chat_avatar_left"
+        android:layout_gravity="top"
+        android:src="@drawable/head"/>
+
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/chat_avatar_left"
+        android:layout_toRightOf="@+id/chat_avatar_left"
+        app:cmv_backgroundColor="@color/bisque"
+        app:cmv_contentPadding="3dp"
+        app:cmv_cornerRadius="8dp">
+
+        <TextView
+            android:id="@+id/chat_left_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp"
+            android:padding="8dp"
+            android:text="Cheers bro!"
+            android:textColor="@color/black"
+            android:textAlignment="center" />
+
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+
+
+</RelativeLayout>

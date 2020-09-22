@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.ChildFragment.PersonalStatusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="1dp"
+            android:text="基本信息"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/status_school"
+                    android:gravity="center_vertical"
+                    android:text="学校"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="中山大学"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/status_school"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/status_area"
+                    android:gravity="center_vertical"
+                    android:text="校区"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="东校区"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/status_area"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/status_major"
+                    android:gravity="center_vertical"
+                    android:text="专业"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="软件工程"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/status_major"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/status_grade"
+                    android:gravity="center_vertical"
+                    android:text="年级"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="大三"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/status_grade"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:layout_marginBottom="1dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/status_hometown"
+                    android:gravity="center_vertical"
+                    android:text="家乡"
+                    android:textColor="@color/lightgrey"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="广东 广州"
+                    android:textColor="@color/black"
+                    android:layout_toRightOf="@+id/status_hometown"
+                    android:textSize="15sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="相册"
+            android:textSize="16sp"/>
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:id="@+id/gridview"
+            android:columnWidth="100dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="3dp"
+            android:horizontalSpacing="3dp"
+            android:stretchMode="columnWidth"
+            android:background="@color/white"
+
+            android:cacheColorHint="#00000000"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:fadeScrollbars="true"
+
+            android:fastScrollEnabled="true"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="10dp"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"
+            android:drawSelectorOnTop="false"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="1dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="爱好标签"
+            android:textSize="16sp"/>
+
+
+
+            <com.moxun.tagcloudlib.view.TagCloudView
+                android:id="@+id/tag_cloud"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:autoScrollMode="uniform"
+                app:darkColor="@color/cornflowerblue"
+                app:lightColor="@color/lightcoral"
+                app:radiusPercent="0.5"
+                app:scrollSpeed="3" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

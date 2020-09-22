@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.PersonActivity.MyLabelActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/my_label_back"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_left_arrow"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:text="爱好标签"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+    <com.example.cheers.MyView.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="二次元"
+            android:textColor="@color/cornflowerblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="cosplay"
+            android:textColor="@color/cornflowerblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="文学"
+            android:textColor="@color/cornflowerblue" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="古典乐"
+            android:textColor="@color/cornflowerblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="行动派"
+            android:textColor="@color/cornflowerblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="电影"
+            android:textColor="@color/cornflowerblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="潮流"
+            android:textColor="@color/cornflowerblue" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_tv_blue"
+            android:padding="5dp"
+            android:text="说唱"
+            android:textColor="@color/cornflowerblue" />
+
+    </com.example.cheers.MyView.FlowLayout>
+
+</LinearLayout>
