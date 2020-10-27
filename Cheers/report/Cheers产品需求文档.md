@@ -1,8 +1,6 @@
 # 产品需求文档
 
 @[toc]
-
-
 | 文件名称   | Cheers需求说明书 |
 |--------|------------|
 | 编写人   | 高泾洲           |
@@ -160,6 +158,24 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 ### 3. 原型界面
+完整原型界面链接：
+[原型界面链接](https://modao.cc/app/48d756bf1b4bb5aeab3e8cc9e795175b9a7eacaa?simulator_type=device&sticky)
+
+
+
+
+
+
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201027145047609.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
+
+
+
+
+
+
+
 #### 学校界面
 
 
