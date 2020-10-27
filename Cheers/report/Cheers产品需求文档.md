@@ -1,6 +1,8 @@
-﻿# 产品需求文档
+# 产品需求文档
 
 @[toc]
+
+
 | 文件名称   | Cheers需求说明书 |
 |--------|------------|
 | 编写人   | 高泾洲           |
@@ -80,7 +82,8 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201017170545358.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201026210717323.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
 
 
 
@@ -98,7 +101,8 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201017192909824.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201026211249415.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
 
 
 
@@ -114,7 +118,8 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201017193203440.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2020102621494341.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
 
 
 
@@ -142,7 +147,10 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201018164702964.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201027143328197.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
 
 
 
@@ -153,6 +161,8 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 ### 3. 原型界面
 #### 学校界面
+
+
 
 
 
@@ -175,7 +185,7 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201018223619603.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201027143643775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
 
 
 
@@ -227,7 +237,9 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201018223704852.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201027143722913.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
 
 
 
@@ -246,7 +258,8 @@ Cheers是一款仅面向大学校园内部的互动交友软件，提供一个�
 
 
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2020101823220636.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201027144505747.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3N0amltbXkyMzI0,size_16,color_FFFFFF,t_70#pic_center)
+
 
 
 
